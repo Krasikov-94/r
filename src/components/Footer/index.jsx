@@ -1,3 +1,5 @@
+import styles from './footer.module.css';
+
 export function Footer() {
-  return <footer>Footer {23 * 2}</footer>;
+  return <footer className={styles.wrapper}>Footer</footer>;
 }
